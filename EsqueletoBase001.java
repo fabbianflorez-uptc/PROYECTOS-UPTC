@@ -3,7 +3,7 @@
 //---CODIGO 202614060--------------------//
 //---------------------------------:D----//
 
-public class MiPrimerPrograma001 { // "public class" es el nombre de tu archivo. Si el archivo se llama diferente, saca error.
+public class EsqueletoBase001 { // "public class" es el nombre de tu archivo. Si el archivo se llama diferente, saca error.
     
     // "public static void main" es el PUNTO DE ENTRADA. 
     // Sin esta linea, el play del programa no sirve para nada.
