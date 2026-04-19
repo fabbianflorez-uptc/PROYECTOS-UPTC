@@ -1,0 +1,39 @@
+//---------------------------------------//
+//--FABIAN LEONARDO FLOREZ GONZALEZ------//
+//---CODIGO 202614060--------------------//
+//---------------------------------:D----//
+
+public class EsqueletoArrays004 {
+
+    public static void main(String[] args) {
+        
+        // 1. DECLARACIÓN Y CREACIÓN
+        // Tipo de dato + [] + nombre = new Tipo[tamaño];
+        // El tamaño es fijo: una vez creado, no se puede agrandar ni achicar.
+        int[] misNumeros = new int[5]; 
+
+        // 2. ASIGNACIÓN DE VALORES
+        // IMPORTANTE: En programación empezamos a contar desde CERO (0).
+        // El primer cajón es el 0, el último es (tamaño - 1).
+        misNumeros[0] = 10; // Primer posición
+        misNumeros[1] = 20;
+        misNumeros[2] = 30;
+        misNumeros[3] = 40;
+        misNumeros[4] = 50; // Quinta y última posición
+
+        // 3. LECTURA DE DATOS
+        // Accedemos al valor llamando a la posición específica.
+        System.out.println("El primer numero es: " + misNumeros[0]);
+
+        // 4. RECORRER EL ARRAY (El truco maestro)
+        // Usamos un ciclo 'for' para no escribir 100 veces System.out.println.
+        // "misNumeros.length" nos dice automáticamente cuánto mide el array.
+        System.out.println("--- Listado de todos los elementos ---");
+        for (int i = 0; i < misNumeros.length; i++) {
+            System.out.println("Indice " + i + " tiene el valor: " + misNumeros[i]);
+        }
+
+        // RECUERDA: Si intentas acceder a misNumeros[5], Java te lanzará un error
+        // (ArrayIndexOutOfBoundsException) porque esa posición NO EXISTE.
+    }
+}
